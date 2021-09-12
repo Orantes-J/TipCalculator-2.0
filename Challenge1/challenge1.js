@@ -1,4 +1,4 @@
-// LONG WAY
+// -----------------------LONG WAY--------------------------------
 const tip = function(amount){
     if (amount >= 50 && amount <=300) {
         let tip = amount *.15;
@@ -15,20 +15,21 @@ const tip = function(amount){
     }
 };
 
-// const dinnerTotal = []
+const dinnerTotal = []
 
-// let dinnerTotal = 125;
-// grandTotal.push(calTip(dinnerTotal));
+let dinnerTotal = 125;
+grandTotal.push(calTip(dinnerTotal));
 
-// dinnerTotal = 555;
-// grandTotal.push(tip(dinnerTotal));
+dinnerTotal = 555;
+grandTotal.push(tip(dinnerTotal));
 
-// dinnerTotal = 44;
-// grandTotal.push(tip(dinnerTotal));
+dinnerTotal = 44;
+grandTotal.push(tip(dinnerTotal));
 
-// console.log(grandTotal)
+console.log(grandTotal)
+// -----------------------LONG WAY--------------------------------------
 
-// ONE LINER FUNCTION
+// ------------------ONE LINER FUNCTION---------------------------------
 
 const calTip = function(bill){
     return bill>=50 && bill<=300 ? bill * .15 : bill * .20
@@ -42,3 +43,4 @@ grandTotal = [calTip(dinnerTotal[0]) + dinnerTotal[0], calTip(dinnerTotal[1]) + 
 
 
 console.log(dinnerTotal, tipAmount, grandTotal);
+// ------------------ONE LINER FUNCTION---------------------------------
